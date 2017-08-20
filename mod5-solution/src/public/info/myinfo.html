@@ -1,0 +1,11 @@
+<div class="container">
+  <h2 class="text-center">My info</h2>
+  <div ng-if="!infoCtrl.cond">
+  		Not Signed Up Yet. <a ui-sref="public.register"> Sign up Now!</a>	
+  </div>
+
+   <div ng-if="infoCtrl.cond">
+  		<info inf="infoCtrl.inf" menu="infoCtrl.menu" url= "infoCtrl.ApiPath">
+  		</info>
+  </div>
+</div>

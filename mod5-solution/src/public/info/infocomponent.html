@@ -1,0 +1,19 @@
+<div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+     
+    	<div>
+    			<h3>Information user</h3>
+    		  <span>FirstName : <b>{{$ctrl.inf.firstname}}</b></span><br/>
+    		  <span>LastName : <b>{{$ctrl.inf.lastname}}</b></span><br/>
+		      <span>Email : <b>{{$ctrl.inf.email}}</b></span><br/>
+		      <span>Phone : <b>{{$ctrl.inf.phone}}</b></span><br/>
+		      <span>Menu : <b>{{$ctrl.inf.menunumber}}</b></span><br/>
+
+		      <div>
+	      		<h2>Information Menu</h2>
+	      		 <img class="img-responsive" width="250" height="150" ng-src="{{$ctrl.url}}/images/{{$ctrl.menu.short_name}}.jpg" alt="{{$ctrl.menu.name}}">
+	      		<span>Description : <b>{{$ctrl.menu.description}}</b></span><br/>
+	     		<span>Name: <b>{{$ctrl.menu.name}}</b></span><br/>
+      		</div>
+      
+    	</div>
+</div>

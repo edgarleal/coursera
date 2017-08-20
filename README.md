@@ -8,3 +8,5 @@ Contenedor de las soluciones del curso Angular coursera
 [Module3-solution](https://edgarleal.github.io/coursera/mod3-solution/)
 
 [Module4-solution](https://edgarleal.github.io/coursera/mod4-solution/)
+
+[Module5-solution](https://edgarleal.github.io/coursera/mod5-solution/)
